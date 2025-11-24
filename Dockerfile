@@ -1,4 +1,4 @@
 FROM alpine:3.20
 RUN apk update
-RUN apk --no-cache add postgresql12-client
+RUN apk --no-cache add postgresql-client
 ENTRYPOINT [ "psql" ]
